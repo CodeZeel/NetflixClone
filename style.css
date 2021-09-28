@@ -6,14 +6,15 @@
 }
 
 .main-div{
-    min-height: 100vh;
+    height: 100vh;
     max-width: 100vw;
     background-image: url('assets/background.png');
     color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-blend-mode: lighten;
-   position: relative;
+    position: relative;
+    border-bottom: 5px solid rgb(148, 147, 147);
 
 }
 
@@ -108,6 +109,7 @@ h4.form-head{
     font-weight: 400;
     padding: 50px;
     text-align: center;
+    margin-top: -20px;
 
 }
 .email-container{
@@ -118,6 +120,7 @@ h4.form-head{
 }
 
 .email-input{
+    margin-top: -20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -132,6 +135,7 @@ h4.form-head{
 }
 
 .email-container button{
+    margin-top: -20px;
     border: none;
     outline:none;
     height: 3.6rem;
@@ -192,3 +196,40 @@ h4.form-head{
     }
     
 }
+
+
+.fun-div{
+    width: 100%;
+    height: 45%;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 13rem;
+    border-bottom: 5px solid rgb(41, 40, 40);
+}
+
+.fun-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.animation-container{
+    width:50%;
+}
+
+.text-container{
+    width:50%;
+    padding: 0rem 1rem;
+    
+}
+.text-container h1{
+    font-size:2.5rem;
+}
+.text-container p{
+    font-size:1.3rem;
+    margin-top: 0.7rem;
+}
+
+
