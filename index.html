@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,56 +8,63 @@
     <link rel="icon" href="assets\Netflix-Logo-PNG-Transparent-Image.png" type="image/icon type">
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 </head>
+
 <body>
     <div class="main-div">
         <header>
             <nav>
                 <netflix-logo>
-                    <img src="assets/netflix-logo.png"  alt="" width="134px" height="36px">
+                    <img src="assets/netflix-logo.png" alt="" width="134px" height="36px">
                 </netflix-logo>
 
                 <div class="right-nav">
-                    <label for="language"><i class="fas fa-globe"></i>English</label>
-                    <select name="language" id="language">
-                        <option value="English">English</option>
+
+                    <select name="language" id="language" placeholder="language-switcher">
+                        <option value="English"><i class="fas fa-globe"></i>English</option>
                         <option value="हिंदी">हिंदी</option>
 
                     </select>
-                    <a href="#">Sign In</a>
-                </div>  
+                    <a href="#">
+                        Sign In
+
+                    </a>
+                </div>
             </nav>
         </header>
 
+        <div class="hero">
+            <div class="hero-section">
+                <h1 class="heading">
+                    Unlimited movies, TV shows and more.
+                </h1>
 
-        <div class="hero-section">
-            <h1 class="heading">
-                Unlimited movies, TV shows and more.
-            </h1>
-
-            <h2 class="desc">Watch anywhere. Cancel anytime.</h2>
-        </div>
-
-
-        <form action="POST" class="email">
-            <h4 class="form-head">
-                Ready to watch? Enter your email to create or restart your membership.
-            </h4>
-            <div class="email-input">
-                <input type="text" placeholder="Email address">
-                <button>
-                    Get Started<i class="fas fa-angle-right"></i>
-                </button>
+                <h2 class="desc">Watch anywhere. Cancel anytime.</h2>
             </div>
 
-        </form>
+
+
+            <form action="POST" class="email">
+                <h4 class="form-head">
+                    Ready to watch? Enter your email to create or restart your membership.
+                </h4>
+                <div class="email-input">
+                    <input type="text" placeholder="Email address">
+                    <button>
+                        Get Started<i class="fas fa-angle-right"></i>
+                    </button>
+                </div>
+
+            </form>
+        </div>
     </div>
 
 
 </body>
+
 </html>
