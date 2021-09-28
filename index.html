@@ -17,50 +17,55 @@
 
 <body>
     <div class="main-div">
-        <header>
-            <nav>
-                <netflix-logo>
-                    <img src="assets/netflix-logo.png" alt="" width="134px" height="36px">
-                </netflix-logo>
+        <div class="black">
+            <header>
+                <nav>
+                    <netflix-logo>
+                        <img src="assets/netflix-logo.png" alt="" width="134px" height="36px">
+                    </netflix-logo>
 
-                <div class="right-nav">
+                    <div class="right-nav">
 
-                    <select name="language" id="language" placeholder="language-switcher">
-                        <option value="English"><i class="fas fa-globe"></i>English</option>
-                        <option value="हिंदी">हिंदी</option>
+                        <select name="language" id="language" placeholder="language-switcher">
+                            <option value="English"><i class="fas fa-globe"></i>English</option>
+                            <option value="हिंदी">हिंदी</option>
 
-                    </select>
-                    <a href="#">
-                        Sign In
+                        </select>
+                        <a href="#">
+                            Sign In
 
-                    </a>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="hero">
+                <div class="hero-section">
+                    <h1 class="heading">
+                        Unlimited movies, TV shows and more.
+                    </h1>
+
+                    <h2 class="desc">Watch anywhere you want. Cancel anytime.</h2>
                 </div>
-            </nav>
-        </header>
 
-        <div class="hero">
-            <div class="hero-section">
-                <h1 class="heading">
-                    Unlimited movies, TV shows and more.
-                </h1>
 
-                <h2 class="desc">Watch anywhere. Cancel anytime.</h2>
+
+                <form action="POST" class="email">
+                    <h4 class="form-head">
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </h4>
+                    <div class="email-container">
+                        <div class="email-input">
+                            <input type="text" placeholder="Email address">
+
+                        </div>
+                        <button>
+                            Get Started &nbsp;<i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+
+                </form>
             </div>
-
-
-
-            <form action="POST" class="email">
-                <h4 class="form-head">
-                    Ready to watch? Enter your email to create or restart your membership.
-                </h4>
-                <div class="email-input">
-                    <input type="text" placeholder="Email address">
-                    <button>
-                        Get Started<i class="fas fa-angle-right"></i>
-                    </button>
-                </div>
-
-            </form>
         </div>
     </div>
 
