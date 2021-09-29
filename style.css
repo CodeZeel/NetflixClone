@@ -131,6 +131,7 @@ h4.form-head{
 }
 .email-input input{
     border: none;
+    outline:none;
     padding-left: 10px;
 }
 
