@@ -206,11 +206,12 @@ h4.form-head{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 1rem 13rem;
+    
     border-bottom: 5px solid rgb(41, 40, 40);
 }
 
 .fun-container{
+    padding: 1rem 13rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -233,3 +234,40 @@ h4.form-head{
 }
 
 
+@media screen and (max-width: 1200px){
+    .fun-container{
+        padding: 1rem 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+        .fun-div .fun-container{
+            padding: 1rem 1rem;
+            flex-direction: column;
+            text-align: center;
+        }
+        .fun-div .fun-container:nth-child(2){
+            flex-direction: column-reverse;
+
+        }
+        .fun-div .fun-container:nth-child(4){
+            flex-direction: column-reverse;
+
+        }
+        .text-container h1{
+            font-size:1.5rem;
+        }
+        .text-container p{
+            font-size:1.2rem;
+            margin-top: 0.7rem;
+        }
+        .animation-container{
+            width:100%;
+        }
+        
+        .text-container{
+            width:100%;
+        
+    
+}
