@@ -18,6 +18,13 @@
 
 }
 
+.responsive{
+    min-width: 100%;
+    min-height: 100%;
+    z-index:1;
+
+}
+
 .black{
     max-width: 100vw;
     background:rgba(0, 0, 0, 0.603);
